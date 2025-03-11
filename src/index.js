@@ -1,9 +1,3 @@
-const dropdownButtons = document.getElementsByClassName("dropdown-btn");
-
-for(let element of dropdownButtons) {
-    element.addEventListener("click", dropDown);
-}
-
 function dropDown(event) {
     const dropdown = event.target.parentElement;
     const dropdownContent = dropdown.lastElementChild;
@@ -18,3 +12,5 @@ function dropDown(event) {
         dropdownContent.style.opacity = "1";
     }
 }
+
+module.exports = dropDown;
