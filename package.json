@@ -1,0 +1,18 @@
+{
+  "name": "dropdownmenu",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dropdown"
+  ],
+  "author": "RobLaran",
+  "license": "UNLICENSED",
+  "description": "A packaged dropdown menu from ODIN PROJECT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobLaran/OdinProject-Dropdown-Menu"
+  }
+}
